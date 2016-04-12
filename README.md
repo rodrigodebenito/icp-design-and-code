@@ -4,9 +4,10 @@
 International Center of Photography  
 New Media Narratives, Spring 2016  
  Wednesdays 6:30pm – 9:30pm, April 13 – June 15  
-Location TK  
+Location: DML B  
 Instructor: [Rodrigo de Benito Sanz](rodrigo@lobula.com)  
-Teaching Assistant: [Jessie Wright-Mendoza](jessiewrightmendoza@gmail.com)  
+Teaching Assistant: [Akshay Bhoan](abhoan@gmail.com)  
+Class Site: [rodrigodebenito.github.io/icp-design-and-code-3](http://rodrigodebenito.github.io/icp-design-and-code-3/)
 
 ## Description
 
