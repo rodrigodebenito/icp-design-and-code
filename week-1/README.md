@@ -10,7 +10,8 @@ A critical view on recent digital projects based on their aesthetic value, funct
 
 ### Workshop: The Photo Essay
 
-Review and application of previously learnt concepts in design and programming to envision and develop an engaging digital photo essay.
+Review and apply previously learnt concepts in design and programming to envision and develop an engaging digital photo essay.  
+[View example](http://rodrigodebenito.github.io/icp-design-and-code-3/week-1/workshop/public/) | [Download Code](https://github.com/rodrigodebenito/icp-design-and-code-3/tree/master/week-1/workshop)
 
 ### Homework
 
