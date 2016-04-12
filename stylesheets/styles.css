@@ -88,12 +88,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#26B5C1;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#108892;
 }
 
 a small {
@@ -158,7 +158,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:320px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -224,6 +224,7 @@ header ul a strong {
 }
 
 section {
+  margin-top:5px;
   width:500px;
   float:right;
   padding-bottom:50px;
