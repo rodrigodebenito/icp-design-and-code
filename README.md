@@ -6,7 +6,7 @@ New Media Narratives, Spring 2016
  Wednesdays 6:30pm – 9:30pm, April 13 – June 15  
 Location: DML B  
 Instructor: [Rodrigo de Benito Sanz](mailto:rodrigo@lobula.com)  
-Teaching Assistant: [Akshay Bhoan](mailto:abhoan@gmail.com)  
+Teaching Assistant: [Akshay Bhoan](mailto:abhoan15@students.icp.edu)  
 Class Site: [rodrigodebenito.github.io/icp-design-and-code-3](http://rodrigodebenito.github.io/icp-design-and-code-3/)
 
 ## Description
