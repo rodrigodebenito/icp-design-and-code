@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rise and Shine</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya:400,700|Lobster' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <article>
+          <header>
+            <h1>Rise and Shine</h1>
+            <h4>What kids around the world eat for breakfast.</h4>
+            <p>Photographs by <a href="http://hannahwhitakerphotography.com/" rel="author">Hannah Whitaker</a></p>
+          </header>
+          <div id="sections"><!-- Insert your sections here --></div>
+          <footer>
+            <p>Text by Malia Wollan. Content from <a href="http://www.nytimes.com/interactive/2014/10/08/magazine/eaters-all-over.html">The New York Times Magazine</a>.</p>
+          </footer>
+        </article>
+        <!-- Template logic: template markup -->
+        <script type="text/template" id="section-tpl">
+          <section>
+            <figure>
+              <div class="images">
+                <img src="img/40/{{ kid_image }}" data-srcset="img/640/{{ kid_image }} 640w, img/960/{{ kid_image }} 960w, img/1280/{{ kid_image }} 1280w" sizes="(max-width: 425px) 100vw, 40vw" alt="{{ name }}" />
+                <img src="img/40/{{ food_image }}" data-srcset="img/640/{{ food_image }} 640w, img/960/{{ food_image }} 960w, img/1280/{{ food_image }} 1280w" sizes="(max-width: 425px) 100vw, 60vw" alt="{{ name }}'s food" />
+              </div>
+              <figcaption>
+                <p class="caption-head">{{ title }}</p>
+                <p class="caption-text">{{ text }}</p>
+              </figcaption>
+            </figure>
+          </section>
+        </script>
+        <!--  external data -->
+        <script src="data/kids.json"></script>
+         <!-- mustache script -->
+        <script src="js/lib/mustache.min.js"></script>
+        <!-- main script -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

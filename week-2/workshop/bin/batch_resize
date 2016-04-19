@@ -1,0 +1,13 @@
+#! /bin/sh
+resize()
+{
+  local sizes="40 640 960 1280"
+  for i in $sizes; do
+    if [ -d public/img/$i ]; then
+      rm -R public/img/$i
+    fi
+    mkdir public/img/$i
+    mogrify -thumbnail $i -quality 80% -filter Lanczos -interlace Plane -path public/img/$i/ src/img/*.jpg
+  done
+}
+resize
