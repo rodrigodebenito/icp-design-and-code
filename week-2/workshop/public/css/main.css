@@ -1,10 +1,9 @@
-/*header h4 {
+.page-header .subheadline {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern";
   -moz-font-feature-settings: "kern";
   font-feature-settings: "kern"; }
-  */
 
 body {
   font-family: "Alegreya", serif;
@@ -16,46 +15,49 @@ body {
   body * {
     box-sizing: border-box; }
 
-p {
+p, h1, h2, h3, h4 {
   margin-top: 0; }
 
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #777777;
   transition: border-color 0.2s, color 0.2s;
   display: inline-block;
   margin-left: 1px; }
   a:hover {
-    color: #000;
-    border-color: #000; }
+    color: black;
+    border-color: black; }
 
 article {
   max-width: 1280px;
   margin: auto; }
 
-header {
-  padding: 0 10vw;
-  text-align: center; }
-  header h1 {
+.page-header {
+  max-width: 1280px;
+  padding: 40px;
+  text-align: left; }
+  .page-header .headline {
     font-family: "Lobster", serif;
-    font-size: 5em;
-    line-height: 1;
-    margin: 0.5em; }
-  header h4 {
-    color: #777;
-    font-size: 1.5em;
+    font-size: 3.2em;
+    line-height: 0.8;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 20px; }
+  .page-header .subheadline {
+    color: #777777;
+    font-size: 1em;
     line-height: 1.1;
-    max-width: 10em;
-    margin: auto; }
-  header p {
+    margin-top: 0.6em;
+    margin-bottom: 0; }
+  .page-header .byline {
     font-size: 0.9em;
-    margin-top: 0.5em;
-    color: #777;
+    margin: 0;
+    color: #777777;
     font-weight: 400; }
 
-section {
-  margin: 80px auto; }
+.section {
+  margin: 0 auto 80px auto; }
 
 figure {
   margin: 0;
@@ -81,20 +83,20 @@ figure {
       figure .images img:nth-child(2) {
         width: calc(60% - 20px);
         float: right; }
-  figure figcaption {
+  figure .caption {
     clear: both;
     padding: 20px 10px;
     margin: auto;
     display: flex;
     font-size: 14px;
-    color: #444; }
-    figure figcaption .caption-head {
-      color: #000;
+    color: #444444; }
+    figure .caption .caption-head {
+      color: black;
       font-weight: 700;
       min-width: 40%;
       padding-left: calc(40% - 13em);
       padding-right: 10px; }
-    figure figcaption .caption-text {
+    figure .caption .caption-text {
       font-weight: 400;
       max-width: 800px;
       min-width: 60%;
@@ -106,38 +108,39 @@ figure {
       -moz-column-gap: 20px;
       column-gap: 20px; }
 
-footer {
+.page-footer {
   font-size: 13px;
   text-align: center;
-  border-top: 1px dotted #999;
+  border-top: 1px dotted #999999;
   margin: 0 40px;
   font-style: italic;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #777; }
+  color: #777777; }
 
 /* Tablet Vertical */
 @media (max-width: 768px) {
-  header {
-    padding: 1em; }
-    header h1 {
-      font-size: 3em; }
+  .page-header {
+    padding: 20px;
+    text-align: center; }
+    .page-header .headline {
+      font-size: 3em;
+      float: none;
+      margin: 20px auto; }
 
-  section {
+  .section {
     margin: 20px auto; }
 
-  figure figcaption .caption-text {
+  figure .caption .caption-text {
     -webkit-columns: auto;
     -moz-columns: auto;
     columns: auto; } }
-
-/* Mobile */
 @media (max-width: 425px) {
-  header h1 {
+  .page-header .headline {
     font-size: 12vw; }
-  header h4 {
+  .page-header .subheadline {
     font-size: 1em; }
-  header p {
+  .page-header .byline {
     font-size: 13px; }
 
   figure {
@@ -152,13 +155,13 @@ footer {
       width: 100%;
       float: none;
       margin: 10px 0; }
-    figure figcaption {
+    figure .caption {
       padding: 20px;
       display: block; }
-      figure figcaption .caption-head {
+      figure .caption .caption-head {
         min-width: 100%;
         padding: 0; }
-      figure figcaption .caption-text {
+      figure .caption .caption-text {
         min-width: 100%;
         padding: 0; } }
 

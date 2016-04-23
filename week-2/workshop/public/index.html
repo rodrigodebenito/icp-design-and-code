@@ -11,25 +11,25 @@
     </head>
     <body>
         <article>
-          <header>
-            <h1>Rise and Shine</h1>
-            <h4>What kids around the world eat for breakfast.</h4>
-            <p>Photographs by <a href="http://hannahwhitakerphotography.com/" rel="author">Hannah Whitaker</a></p>
+          <header class="page-header">
+            <h1 class="headline">Rise and Shine</h1>
+            <h4 class="subheadline">What kids around the world eat for breakfast.</h4>
+            <p class="byline">Photographs by <a href="http://hannahwhitakerphotography.com/" rel="author">Hannah Whitaker</a></p>
           </header>
-          <div id="sections"><!-- Insert your sections here --></div>
-          <footer>
+          <div id="sections" class="sections"><!-- Insert your sections here --></div>
+          <footer class="page-footer">
             <p>Text by Malia Wollan. Content from <a href="http://www.nytimes.com/interactive/2014/10/08/magazine/eaters-all-over.html">The New York Times Magazine</a>.</p>
           </footer>
         </article>
         <!-- Template logic: template markup -->
         <script type="text/template" id="section-tpl">
-          <section>
+          <section class="section">
             <figure>
               <div class="images">
                 <img src="img/40/{{ kid_image }}" data-srcset="img/640/{{ kid_image }} 640w, img/960/{{ kid_image }} 960w, img/1280/{{ kid_image }} 1280w" sizes="(max-width: 425px) 100vw, 40vw" alt="{{ name }}" />
                 <img src="img/40/{{ food_image }}" data-srcset="img/640/{{ food_image }} 640w, img/960/{{ food_image }} 960w, img/1280/{{ food_image }} 1280w" sizes="(max-width: 425px) 100vw, 60vw" alt="{{ name }}'s food" />
               </div>
-              <figcaption>
+              <figcaption class="caption">
                 <p class="caption-head">{{ title }}</p>
                 <p class="caption-text">{{ text }}</p>
               </figcaption>
