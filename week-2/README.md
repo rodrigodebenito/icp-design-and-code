@@ -25,4 +25,4 @@ Review of students previous homework (basic Photo Essay) and walk through new te
 
 **Ongoing:** Prepare a short *"Show and Tell"* on the progress of your project. Collect the materials you plan to include (or a description of them), your goals, vision and inspiration. The more specific you are, the easier it will be to design strategies and identify pitfalls early on. Prepare a few slides (as a PDF or Google Slides) to present in class for a few minutes.  
 
-*Email your links / files to [me](mailto:rodrigo@lobula.com) by the end of the day before class.*
+*Email your critique and presentation links to [me](mailto:rodrigo@lobula.com) by the end of the day before class.*
