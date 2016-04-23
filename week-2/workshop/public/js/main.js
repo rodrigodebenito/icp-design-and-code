@@ -39,7 +39,9 @@ var template = document.getElementById('section-tpl').innerHTML;
 var html = '';
 for(var i=0; i<data.length; i++){
   var object = data[i];
-  /* Increment html string with markup returned by Mustache after parsing the template using each object */
+  /* Increment html string with markup returned by Mustache after parsing the template using each object.
+     html += string is the same as html = html + string.
+  */
   html += Mustache.render(template, object);
 }
 document.getElementById('sections').innerHTML = html;
@@ -53,26 +55,32 @@ var onScroll = function(e) {
   /* Loop through each section */
   for(var i=0; i<sections.length; i++){
     /* Get section, bounding box (dimensions and position in the document) and viewport height */
-    var section = sections[i],
-        rect = section.getBoundingClientRect();
-        vheight = document.documentElement.clientHeight;
+    var section = sections[i];
+    var rect = section.getBoundingClientRect();
+    var vheight = window.innerHeight;
     /* Check whether section is in viewport. Bounding rect is relative to viewport.
        If the top is less than the height (bottom of viewport)
        and the bottom more than 0 (top of viewport), then the section is on view */
     if(rect.top < vheight && rect.bottom > 0 ){
-      /* Add active class only if it's not there (to avoid repetition) */
-      if(section.className.indexOf(' active') < 0) section.className += ' active';
+      /* Add active class only if it's not there (to avoid repetition).
+         ClassName is a string property so we can add active as section.className = section.className + ' active';  */
+      if(section.className.indexOf(' active') < 0){
+        section.className += ' active';
+      }
       /* Get all images in the section to assign the srcset */
       var imgs = section.querySelectorAll('img');
       /* Loop through again */
       for(var j=0; j<imgs.length; j++){
-        /* Grab each image and update srcset attribute from data-srcset */
+        /* Grab each image and update srcset attribute from data-srcset.
+           Check whether image has already srcset property or not and copy it from data-srcset if it doesn't. */
         var img = imgs[j];
-        if(!img.getAttribute('srcset')) img.setAttribute('srcset', img.getAttribute('data-srcset'));
+        if(!img.getAttribute('srcset')){
+          img.setAttribute('srcset', img.getAttribute('data-srcset'));
+        }
       }
     }else{
       /* Deactivate (remove active class) if section is not on view */
-      section.className.replace(' active', '');
+      section.className = section.className.replace('active', '');
     }
   }
 };
