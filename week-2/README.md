@@ -1,4 +1,4 @@
-# Week 2
+# Week 2 (April 23)
 
 ### Show and Tell: Student Projects
 
@@ -19,8 +19,10 @@ Review of students previous homework (basic Photo Essay) and walk through new te
 
 ### Homework
 
-**For week 3:** Expand your photo essay with the new skills acquired during the workshop and prepare a brief presentation on it. Innovation, interactivity, implementation and portability will be key factors in your grade.  
+**For week 3:** Expand your photo essay with the new skills acquired during the workshop. Enable breakpoints on your css stylesheets (via media queries). Try adding some javascript logic such as click / scroll / resize events, templates, etc.  
 
-**Ongoing:** Every week, students will be expected to find a digital project and prepare for the *"What's out there"* critique segment of the following week.  
+**Ongoing:** Find a digital project for the *"What's out there"* critique section and prepare a brief design and tech review: what you like, what you don't and how you would improve it. The technical overview should concentrate on one or two aspects of the code structure that are new or interesting for you (libraries, syntax, architecture, etc).  
 
-**Ongoing:** As a core requirement for this class, students will design and develop a full digital project to be presented by the end of the term. Each week, students will prepare a short *"Show and Tell"* on the progress of their project and their completion of milestones.  
+**Ongoing:** Prepare a short *"Show and Tell"* on the progress of your project. Collect the materials you plan to include (or a description of them), your goals, vision and inspiration. The more specific you are, the easier it will be to design strategies and identify pitfalls early on. Prepare a few slides (as a PDF or Google Slides) to present in class for a few minutes.  
+
+*Email your links / files to [me](mailto:rodrigo@lobula.com) by the end of the day before class.*
