@@ -8,7 +8,6 @@ Location: DML B
 Instructor: [Rodrigo de Benito Sanz](mailto:rodrigo@lobula.com)  
 Teaching Assistant: [Akshay Bhoan](mailto:abhoan15@students.icp.edu)  
 Class Site: [rodrigodebenito.github.io/icp-design-and-code-3](http://rodrigodebenito.github.io/icp-design-and-code-3/)  
-Class Repo: [github.com/rodrigodebenito/icp-design-and-code-3](https://github.com/rodrigodebenito/icp-design-and-code-3)
 
 ## Description
 
