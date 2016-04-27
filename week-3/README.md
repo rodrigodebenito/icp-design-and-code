@@ -15,7 +15,7 @@ A critical view on recent digital projects based on their aesthetic value, funct
 ### Workshop: The Photo Essay, part 3.
 
 Review of students questions (basic Photo Essay) and walk through new techniques and strategies to enhance it.
-[View example](http://rodrigodebenito.github.io/icp-design-and-code-3/week-2/workshop/public/) | [Download Code](https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-2/workshop)
+[View example](http://rodrigodebenito.github.io/icp-design-and-code-3/week-3/workshop/public/) | [Download Code](https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-3/workshop)
 
 ### Homework
 
