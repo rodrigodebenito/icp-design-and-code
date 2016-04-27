@@ -69,5 +69,5 @@ var onDataLoaded = function(event){
    http://localhost:8000/ in your browser */
 var request = new XMLHttpRequest();
 request.addEventListener("load", onDataLoaded);
-request.open("GET", "/data/kids.json");
+request.open("GET", "./data/kids.json");
 request.send();
