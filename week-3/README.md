@@ -19,7 +19,7 @@ Review of students questions (basic Photo Essay) and walk through new techniques
 
 ### Homework
 
-**For week 3:** Finish up your photo essay. We will cover each of them and answer any remaining questions in the following class.
+**For week 4:** Finish up your photo essay. We will cover each of them and answer any remaining questions in the following class.
 
 **Ongoing:** Find a digital project for the *"What's out there"* critique section and prepare a brief design and tech review: what you like, what you don't and how you would improve it. The technical overview should concentrate on one or two aspects of the code structure that are new or interesting for you (libraries, syntax, architecture, etc).  
 

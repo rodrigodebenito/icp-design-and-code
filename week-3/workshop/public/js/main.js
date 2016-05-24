@@ -40,6 +40,7 @@ var onScroll = function(event) {
 var onDataLoaded = function(event){
   // Obtain original request and parse data
   var request = event.currentTarget;
+  console.log(event, request);
   var data = JSON.parse(request.response);
 
   // Obtain template string
@@ -47,14 +48,16 @@ var onDataLoaded = function(event){
 
   // Render sections from data
   var html = '';
+  var mysections = document.getElementById('sections');
+  mysections.innerHTML = "";
   for(var i=0; i<data.length; i++){
     var object = data[i];
     // Increment html string with markup returned by Mustache after parsing the template using each object.
     // html += string is the same as html = html + string.
-    html += Mustache.render(template, object);
+   mysections.innerHTML = mysections.innerHTML + Mustache.render(template, object);
   }
   // Inject composed html string in sections element
-  document.getElementById('sections').innerHTML = html;
+  //document.getElementById('sections').innerHTML = html;
 
   // Add scroll event listener and run once to have the first view ready
   window.addEventListener('scroll', onScroll);
