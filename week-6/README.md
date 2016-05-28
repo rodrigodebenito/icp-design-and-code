@@ -16,6 +16,6 @@ Install node and set up a basic express server.
 
 **Ongoing:** Find a digital project for the *"What's out there"* critique section and prepare a brief design and tech review: what you like, what you don't and how you would improve it. The technical overview should concentrate on one or two aspects of the code structure that are new or interesting for you (libraries, syntax, architecture, etc).  
 
-**Ongoing:** Create a basic prototype to apply your ideas and see them in action.
+**Ongoing:** Class Projects: Create a basic prototype of your project to apply your ideas and see them in action.
 
 *Email your critique and presentation links to [me](mailto:rodrigo@lobula.com) by the end of the day before class.*
