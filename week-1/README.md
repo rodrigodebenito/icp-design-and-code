@@ -2,7 +2,7 @@
 
 ### Lecture
 
-Introduction and overview. Creating digital projects online and in site-specific contexts.
+Introduction and overview. Visual storytelling online and in site-specific contexts.
 
 ### What's out there
 

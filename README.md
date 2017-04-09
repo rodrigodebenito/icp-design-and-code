@@ -70,5 +70,6 @@ Postmortems. Next steps.
 
 # Resources
 
-**How to setup github**
-https://docs.google.com/document/d/1dYXRKutXbOoAGy63uFaVqMnULlWaztGmcmz49XTHUTU/edit?usp=sharing
+* **[How to setup github](https://docs.google.com/document/d/1dYXRKutXbOoAGy63uFaVqMnULlWaztGmcmz49XTHUTU/edit?usp=sharing)**
+
+* **[What's out there](https://docs.google.com/spreadsheets/d/10_4_J_NXowfyv-fV8q4X4NBFa_3-TL3PbAImDTqk0FA/edit?usp=sharing)**
