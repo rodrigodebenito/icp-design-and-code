@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/github-light.css">
   <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -17,13 +18,13 @@
   <div class="wrapper">
     <header>
       <h1>DESIGN &amp; CODE 3</h1>
-      <p><strong>16SNMDC200</strong>
+      <p><strong>17SNMDC200</strong>
         <br>International Center of Photography
         <br> New Media Narratives, Spring 2016
-        <br> Wednesdays 6:30pm – 9:30pm, April 13 – June 15
-        <br> Location: DML B
+        <br> Wednesdays 6:30pm – 9:30pm, April 12 – June 14
+        <br> Location: First class at DML-C, then at Seminar A
         <br> Instructor: <a href="mailto:rodrigo@lobula.com">Rodrigo de Benito Sanz</a>
-        <br> Teaching Assistant: <a href="mailto:abhoan15@students.icp.edu">Akshay Bhoan</a>
+        <br> Teaching Assistant: <a href="mailto:alwin@akxlphotos.com">Alwin Kuruvilla</a>
       </p>
       <p class="view">
         <a href="https://github.com/rodrigodebenito/icp-design-and-code-3">View on GitHub</a>
@@ -76,25 +77,36 @@
 
       <ul>
         <li>
-          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-1">Week 1 (April 13)</a></strong>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-1">Week 1 (April 12)</a></strong>
         </li>
         <li>
-          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-2">Week 2 (April 20)</a></strong>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-2">Week 2 (April 19)</a></strong>
         </li>
         <li>
-          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-3">Week 3 (April 27)</a></strong>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-3">Week 3 (April 26)</a></strong>
         </li>
         <li>
-          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-4">Week 4 (May 4)</a></strong>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-4">Week 4 (May 3)</a></strong>
         </li>
         <li>
-          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-5">Week 5 (May 11)</a></strong>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-5">Week 5 (May 10)</a></strong>
         </li>
         <li>
-          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-6">Week 6 (May 18)</a></strong>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-6">Week 6 (May 17)</a></strong>
+        </li>
+        <li>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-7">Week 7 (May 24)</a></strong>
+        </li>
+        <li>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-8">Week 8 (May 31)</a></strong>
+        </li>
+        <li>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-9">Week 9 (June 7)</a></strong>
+        </li>
+        <li>
+          <strong><a href="https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-10">Week 10 (June 14)</a></strong>
         </li>
       </ul>
-
     </section>
     <footer>
       <p>
@@ -103,5 +115,16 @@
     </footer>
   </div>
   <script src="javascripts/scale.fix.js"></script>
+  <script>(function(){
+    var links = document.querySelectorAll('li a');
+    var months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+    var ms = Date.now() + 7*24*60*60*1000;
+    for(var i = 0; i < links.length; i++) {
+      var l = links[i];
+      var m = /\((\w+)\s+(\d+)\)/gi.exec(l.textContent);
+      if(ms >= Date.UTC(2017, months.indexOf(m[1].toLowerCase()), m[2])) l.className = 'active';
+    }
+  })()</script>
 </body>
+
 </html>

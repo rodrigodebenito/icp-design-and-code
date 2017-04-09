@@ -1,12 +1,12 @@
 # DESIGN AND CODE 3
 
-**16SNMDC200**  
+**17SNMDC200**  
 International Center of Photography  
-New Media Narratives, Spring 2016  
- Wednesdays 6:30pm – 9:30pm, April 13 – June 15  
-Location: DML B  
+New Media Narratives, Spring 2017  
+ Wednesdays 6:30pm – 9:30pm, April 12 – June 14  
+Location: First class at DML-C, then at Seminar A
 Instructor: [Rodrigo de Benito Sanz](mailto:rodrigo@lobula.com)  
-Teaching Assistant: [Akshay Bhoan](mailto:abhoan15@students.icp.edu)  
+Teaching Assistant: [Alwin Kuruvilla](mailto:alwin@akxlphotos.com)  
 Class Site: [rodrigodebenito.github.io/icp-design-and-code-3](http://rodrigodebenito.github.io/icp-design-and-code-3/)  
 
 ## Description
@@ -37,32 +37,38 @@ work.
 
 This is a general outline for the course. Some of the themes are subject to change depending on the progress of the projects and the direction they take, as well as other guidance and support requirements.
 
-**Week 1 (April 13)**  
-Introduction and overview. Creating digital projects online and in site-specific contexts.
+**Week 1 (April 12)**  
+Introduction and overview. Visual storytelling online and in site-specific contexts.
 
-**Week 2 (April 20)**  
-Visual storytelling in interactive platforms.
+**Week 2 (April 19)**  
+Bootcamp.
 
-**Week 3 (April 27)**  
+**Week 3 (April 26)**  
 Defining goals and audiences. Designing user experiences and expectations.
 
-**Week 4 (May 4)**  
+**Week 4 (May 3)**  
 Project planning and production dynamics.
 
-**Week 5 (May 11)**  
+**Week 5 (May 10)**  
 Midterm Presentations.
 
-**Week 6 (May 18)**  
+**Week 6 (May 17)**  
 Project architecture, scalability, exportability and maintenance.
 
-**Week 7 (May 25)**  
+**Week 7 (May 24)**  
 “No Project Is an Island.” APIs, SEO, blogging and social media strategies.
 
-**Week 8 (June 1)**  
+**Week 8 (May 31)**  
 Revision. Redesign. Refactoring.
 
-**Week 9 (June 8)**  
+**Week 9 (June 7)**  
 Finals.
 
-**Week 10 (June 15)**  
+**Week 10 (June 14)**  
 Postmortems. Next steps.
+
+
+# Resources
+
+**How to setup github**
+https://docs.google.com/document/d/1dYXRKutXbOoAGy63uFaVqMnULlWaztGmcmz49XTHUTU/edit?usp=sharing
