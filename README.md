@@ -50,10 +50,10 @@ Defining goals and audiences. Designing user experiences and expectations.
 Project planning and production dynamics.
 
 **Week 5 (May 10)**  
-Midterm Presentations.
+Project architecture, scalability, exportability and maintenance.
 
 **Week 6 (May 17)**  
-Project architecture, scalability, exportability and maintenance.
+Midterm Presentations.
 
 **Week 7 (May 24)**  
 “No Project Is an Island.” APIs, SEO, blogging and social media strategies.
