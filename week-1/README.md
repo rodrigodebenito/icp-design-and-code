@@ -15,6 +15,8 @@ Review and apply previously learnt concepts in design and programming to envisio
 
 ### Homework
 
-**For week 2:** Complete your photo essay and prepare a brief presentation on it. Innovation, interactivity, implementation and portability will be key factors in your grade.  
+###### For week 2
+Complete your photo essay and prepare a brief presentation on it. Innovation, interactivity, implementation and portability will be key factors in your grade.  
 
-**Ongoing:** Every week, students will be expected to find a digital project and prepare for the *"What's out there"* critique segment of the following week. Links will be added [here](https://docs.google.com/spreadsheets/d/10_4_J_NXowfyv-fV8q4X4NBFa_3-TL3PbAImDTqk0FA).
+###### Ongoing
+Every week, students will be expected to find a digital project and prepare for the *"What's out there"* critique segment of the following week. Links will be added [here](https://docs.google.com/spreadsheets/d/10_4_J_NXowfyv-fV8q4X4NBFa_3-TL3PbAImDTqk0FA).

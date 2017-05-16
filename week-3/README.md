@@ -19,15 +19,15 @@ Your favorite band just came out with a new album called Paradise and they asked
 
 ### Homework
 
-**For week 4:**
+###### For week 4
 Complete the user experience of the microsite you started during the workshop #2 and prepare a 10 minute presentation including:
 * A description of your target users (personas).
 * Documentation on identified needs / features and opportunities / risks.
 * A sitemap.
 * A detailed user journey.
 
-**For week 5:**
+###### For week 5
 Create your own slideshow / story using the code in workshop #1 as boilerplate.
 
-**Ongoing:**
+###### Ongoing
 Every week, students will be expected to find a digital project and prepare for the *"What's out there"* critique segment of the following week. Links will be added [here](https://docs.google.com/spreadsheets/d/10_4_J_NXowfyv-fV8q4X4NBFa_3-TL3PbAImDTqk0FA).
