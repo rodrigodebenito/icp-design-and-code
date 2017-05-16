@@ -139,7 +139,7 @@
   <script>(function(){
     var links = document.querySelectorAll('li a');
     var months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
-    var ms = Date.now() + 7*24*60*60*1000;
+    var ms = Date.now();// + 7*24*60*60*1000;
     for(var i = 0; i < links.length; i++) {
       var l = links[i];
       var m = /\((\w+)\s+(\d+)\)/gi.exec(l.textContent);
