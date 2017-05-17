@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="./js/swiper.min.js"></script>
         <link rel="stylesheet" href="./css/swiper.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Alegreya:400,700|Lobster' rel='stylesheet' type='text/css'>
     </head>
     <style>
     html, body {
@@ -37,8 +36,8 @@
       height: 50vh;
     }
     #slideshow section {
-      opacity: 1;
-      transition: opacity 0.5s;
+      opacity: 0;
+      transition: opacity 1s;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -48,7 +47,10 @@
       right: 0;
       bottom: 0;
     }
-
+    #slideshow section.active {
+      opacity: 1;
+    }
+    /* Swiper specific */
     #slideshow.swiper-container-vertical section{
       position: relative;
       top: auto;
@@ -56,15 +58,19 @@
       right: auto;
       bottom: auto;
     }
-    #slideshow section.active,
     #slideshow .swiper-slide-active {
       opacity: 1;
     }
+    /* Desktop specific */
     #controls {
       position: absolute;
       height: 100vh;
       width: 100%;
       top: 0;
+      z-index: 10000000;
+    }
+    .mobile #controls {
+      display: none;
     }
     #controls .control {
       height: 100%;
@@ -73,12 +79,16 @@
       top: 0;
       opacity: 0;
       cursor: pointer;
-      transition: opacity 1s;
+      background: #0000DD;
+      font-size: 15vw;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: yellow;
     }
     #controls .control:hover {
-      /*background: black;
-      opacity: 0.2;
-      transition: opacity 1s;*/
+      opacity: 1;
     }
     #left {
       left: 0;
@@ -108,45 +118,46 @@
           </div>
         </div>
         <div id="controls">
-          <div id="left" class="control"></div>
-          <div id="right" class="control"></div>
+          <div id="left" class="control">–</div>
+          <div id="right" class="control">+</div>
         </div>
         <script>
-          // Query and store elements
-          var sections = document.querySelectorAll('#slideshow section');
-          var left = document.querySelector('#left');
-          var right = document.querySelector('#right');
-          var index = 0;
-          // Function to switch active slide
-          var switchSlide = function(e){
-            // Set coeficient
-            var coef = 1;
-            if(!e) {
-              coef = 0;
-            } else if(e.currentTarget.id == 'left') {
-              coef = -1;
-            }
-            // Reset sections
-            for(var i = 0; i<sections.length; i++){
-              sections[i].className = sections[i].className.replace(' active', '');
-            }
-            // Normalize new index
-            index = index + coef;
-            if(index >= sections.length) index = 0;
-            if(index < 0) index = sections.length - 1;
-            // Activate slide in index
-            sections[index].className += ' active';
-          }
-
+          // Check if this is mobile
           var regularExpression = /iPhone|iPad|iPod/;
           var isMobile = regularExpression.test(window.navigator.userAgent);
           if(isMobile){
+            // Add mobile class
+            document.documentElement.classList.add('mobile');
+            // Create swiper object and pass options
             var swiper = new Swiper('.swiper-container', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
                 direction: 'vertical'
             });
           }else {
+            // Query and store elements
+            var sections = document.querySelectorAll('#slideshow section');
+            var left = document.querySelector('#left');
+            var right = document.querySelector('#right');
+            var index = 0;
+            // Function to switch active slide
+            var switchSlide = function(e){
+              // Set coeficient
+              var coef = 1;
+              if(!e) {
+                coef = 0;
+              } else if(e.currentTarget.id == 'left') {
+                coef = -1;
+              }
+              // Reset sections
+              for(var i = 0; i<sections.length; i++){
+                sections[i].className = sections[i].className.replace(' active', '');
+              }
+              // Normalize new index
+              index = index + coef;
+              if(index >= sections.length) index = 0;
+              if(index < 0) index = sections.length - 1;
+              // Activate slide in index
+              sections[index].className += ' active';
+            }
             // Add area events to control slideshow and initialize
             left.addEventListener('click', switchSlide, false);
             right.addEventListener('click', switchSlide, false);
