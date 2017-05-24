@@ -53,19 +53,19 @@ Project planning and production dynamics.
 Project architecture, scalability, exportability and maintenance.
 
 **Week 6 (May 17)**  
-Midterm Presentations.
+Midterm presentations.
 
 **Week 7 (May 24)**  
-“No Project Is an Island.” APIs, SEO, blogging and social media strategies.
+On the server side.
 
 **Week 8 (May 31)**  
-Revision. Redesign. Refactoring.
+“No Project Is an Island.” APIs, SEO, blogging and social media strategies.
 
 **Week 9 (June 7)**  
-Finals.
+Revision. Redesign. Refactoring.
 
 **Week 10 (June 14)**  
-Postmortems. Next steps.
+Finals.
 
 
 # Resources
