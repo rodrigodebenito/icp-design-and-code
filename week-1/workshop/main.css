@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  margin: 3em;
+  font-size: 16px;
+}
+
+.title {
+  color: white;
+  font-family: Helvetica;
+  font-size: 15em;
+}
+
+.square {
+  display: inline-block;
+  width: 0.12em;
+  height: 0.12em;
+}
+
+.square.outer {
+  background-color: #DA1745;
+  border-color: #F5921F;
+  border-style: solid;
+  border-width: 0.1em;
+  padding: 0.1em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+.square .square {
+  vertical-align: middle;
+  background-color: #730606;
+}
+
+.image {
+  width: 0.55em;
+  height: 0.55em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}

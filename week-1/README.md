@@ -2,13 +2,10 @@
 
 ### Lecture
 
-Introduction and overview. Visual storytelling online and in site-specific contexts.
+Introduction. The basics of the Internet and how it can be used for storytelling.
 
-### What's out there
-
-A critical view on recent digital projects based on their aesthetic value, functionality and technical execution.
-
-### Workshop: The Photo Essay
+### Workshop: HTML & CSS Layout 101
+TBD
 
 Review and apply previously learnt concepts in design and programming to envision and develop an engaging digital photo essay.  
 [View example](http://rodrigodebenito.github.io/icp-design-and-code-3/week-1/workshop/public/) | [View Code](https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-1/workshop)
