@@ -1,22 +1,25 @@
-// Open the workshop folder.
-// Enter `npm install` to install required pakages.
-// Enter `node app.js` on terminal to kick it off.
+// Open the workshop folder in terminal
+// Enter `npm init` and follow the prompt instructions there to create the package.json file (most fields are optional).
+// Enter `npm install express` to install the express module. 
+// Express lets you create a web server using node. More information at https://expressjs.com/
 var express = require('express');
-var app = express();
+var myapp = express();
 
-// Set default GET route.
-// Test: `curl -X GET http://localhost:3000`
-app.get('/', function (req, res) {
-  res.send('Hello GET World!\n');
+// Set a default GET route.
+// Test: Enter `curl -X GET http://localhost:3000` in terminal, or in your browser (http://localhost:3000 in the URL bar).
+myapp.get('/', function (request, response) {
+  response.send('Hello GET World!');
 });
 
-// Set default POST route.
-// Test: `curl -X POST http://localhost:3000`
-app.post('/', function (req, res) {
-  res.send('Hello POST World!\n');
+// Set a default POST route.
+// Test: Enter `curl -X POST http://localhost:3000` in terminal, or through a form (not available through the URL bar).
+myapp.post('/', function (request, response) {
+  response.send('Hello POST World!');
 });
 
-// Start your server on port 3000
-app.listen(3000, function () {
+// Start your server on port 3000.
+myapp.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
+
+// Enter `node app.js` to kick it off.
