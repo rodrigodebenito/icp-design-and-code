@@ -35,7 +35,7 @@ Assignment evaluation will be based on:
 
 ## Schedule
 
-This is a general outline for the course. Some of the themes are subject to change depending on the progress of the projects and the direction they take, as well as other guidance and support requirements.
+This is a general outline for the course. Some of the themes are subject to change depending on the progress of the projects, as well as other guidance and support requirements.
 
 **Week 1 (January 16)**  
 Introduction. Servers, clients and what’s in-between.
