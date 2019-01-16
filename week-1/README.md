@@ -4,16 +4,16 @@
 
 Introduction. The basics of the Internet and how it can be used for storytelling.
 
-### Workshop: HTML & CSS Layout 101
-TBD
+### Workshop: HTML & CSS Layout 101  
 
-Review and apply previously learnt concepts in design and programming to envision and develop an engaging digital photo essay.  
-[View example](http://rodrigodebenito.github.io/icp-design-and-code-3/week-1/workshop/public/) | [View Code](https://github.com/rodrigodebenito/icp-design-and-code-3/tree/gh-pages/week-1/workshop)
+Creating a header with HTML and CSS
+[View example](http://rodrigodebenito.github.io/icp-design-and-code/week-1/workshop/public/) | [View Code](https://github.com/rodrigodebenito/icp-design-and-code/tree/gh-pages/week-1/workshop)
 
 ### Homework
 
 ###### For week 2
-Complete your photo essay and prepare a brief presentation on it. Innovation, interactivity, implementation and portability will be key factors in your grade.  
+Complete your header.
 
 ###### Ongoing
-Every week, students will be expected to find a digital project and prepare for the *"What's out there"* critique segment of the following week. Links will be added [here](https://docs.google.com/spreadsheets/d/10_4_J_NXowfyv-fV8q4X4NBFa_3-TL3PbAImDTqk0FA).
+Every week, students will be expected to find a digital project and present it with a quick summary the following week.
+Email me the links each Tuesday before class.
