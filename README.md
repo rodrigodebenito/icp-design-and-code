@@ -7,7 +7,8 @@ Wednesdays 6:30pm – 9:30pm, January 16 – March 20
 Location: Seminar A  
 Instructor: [Rodrigo de Benito Sanz](mailto:rodrigo@lobula.com)  
 Teaching Assistant: [Zhiyu Zhang](mailto:zzhang18@students.icp.edu)  
-Class Site: [rodrigodebenito.github.io/icp-design-and-code](http://rodrigodebenito.github.io/icp-design-and-code/)  
+[Class Site](http://rodrigodebenito.github.io/icp-design-and-code/) | [Class Code](https://github.com/rodrigodebenito/icp-design-and-code)  
+
 
 ## Description
 
