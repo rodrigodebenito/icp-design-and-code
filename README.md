@@ -47,13 +47,13 @@ Digital editorial design.
 User interfaces, motion and interactivity.
 
 **Week 4 (February 6)**  
-Editing and managing content.
+Introduction to user experience design.
 
 **Week 5 (February 13)**  
 Midterm Presentations.
 
 **Week 6 (February 20)**  
-Introduction to user experience design.
+Editing and managing content.
 
 **Week 7 (February 27)**  
 You're in control. Basic javascript.

@@ -6,14 +6,18 @@ Introduction. The basics of the Internet and how it can be used for storytelling
 
 ### Workshop: HTML & CSS Layout 101  
 
-Creating a header with HTML and CSS
+Creating a header with HTML and CSS.  
 [View example](http://rodrigodebenito.github.io/icp-design-and-code/week-1/workshop/) | [View Code](https://github.com/rodrigodebenito/icp-design-and-code/tree/gh-pages/week-1/workshop)
 
-### Homework
+### Homework for next week
 
-###### For week 2
-Complete your header.
+###### Workshop
+Complete your HTML/CSS exercise.
 
-###### Ongoing
-Every week, students will be expected to find a digital project and present it with a quick summary the following week.
-Email me the links each Tuesday before class.
+###### Critique
+Find a digital project to present during our critique section.
+Copy your link to our shared document.
+
+###### Reading
+Read [this article](https://alistapart.com/article/dao).  
+We'll talk about it in class.
