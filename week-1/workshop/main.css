@@ -26,6 +26,10 @@ body {
   margin-right: 0.1em;
 }
 
+.square.outer.myfirst {
+  width: 0.24em;
+}
+
 .square .square {
   vertical-align: middle;
   background-color: #730606;

@@ -45,10 +45,10 @@ Introduction. Servers, clients and what’s in-between.
 Digital editorial design.
 
 **Week 3 (January 30)**  
-User interfaces, motion and interactivity.
+Introduction to user experience design.
 
 **Week 4 (February 6)**  
-Introduction to user experience design.
+Introduction to user experience design (cont).
 
 **Week 5 (February 13)**  
 Midterm Presentations.

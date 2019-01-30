@@ -11,13 +11,13 @@ Creating a header with HTML and CSS.
 
 ### Homework for next week
 
-###### Workshop
+##### Workshop
 Complete your HTML/CSS exercise.
 
-###### Critique
+##### Critique
 Find a digital project to present during our critique section.
-Copy your link to our shared document.
+Copy your link to our [shared document](https://docs.google.com/spreadsheets/d/1yQk1g523ujerGCJGKW45Jh5oDTgjyrSV5Y78s4xlDT0).
 
-###### Reading
+##### Reading
 Read [this article](https://alistapart.com/article/dao).  
 We'll talk about it in class.

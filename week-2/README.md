@@ -11,13 +11,13 @@ A basic photo-essay with HTML and CSS
 
 ### Homework for next week
 
-###### Workshop
+##### Workshop
 Complete your HTML/CSS exercise.
 
-###### Critique
+##### Critique
 Find a digital project to present during our critique section.
-Copy your link to our shared document.
+Copy your link to our [shared document](https://docs.google.com/spreadsheets/d/1yQk1g523ujerGCJGKW45Jh5oDTgjyrSV5Y78s4xlDT0).
 
-###### Reading
+##### Reading
 Read [this article](http://eyeondesign.aiga.org/online-reading-is-becoming-more-like-print-why-we-think-thats-a-great-idea).  
 We'll talk about it in class.

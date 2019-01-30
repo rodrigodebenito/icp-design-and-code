@@ -1,0 +1,94 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  margin-top: 0;
+}
+
+.article {
+  max-width: 1280px;
+  margin: auto;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.header h1 {
+  font-size: 100px;
+  line-height: 0.7em;
+  margin: 100px auto 10px auto;
+  max-width: 200px;
+}
+
+.header h1 span {
+  font-size: 0.6em;
+}
+
+.header h4 {
+  color: #777;
+  font-size: 24px;
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.header p {
+  font-size: 16px;
+  margin: 4px auto 0 auto;
+  color: #777;
+  font-weight: 400;
+  max-width: 300px;
+  text-align: right;
+}
+
+.section {
+  margin: 80px auto;
+}
+
+.figure {
+  margin: 20px auto;
+  max-width: 720px;
+}
+
+.figure img {
+  display: block;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.figcaption {
+  margin: 20px 0 80px auto;
+  font-size: 15px;
+  color: #444;
+  max-width: 75%;
+}
+
+.figcaption .caption-head {
+  color: #000;
+  font-weight: 700;
+  max-width: 40%;
+}
+
+.figcaption .caption-text {
+  font-weight: 400;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  border-top: 1px dotted #999;
+  margin: 0 40px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #777;
+}
