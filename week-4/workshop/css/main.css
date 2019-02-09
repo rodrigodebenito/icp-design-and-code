@@ -9,6 +9,7 @@ h1, h2, h4 {
 }
 
 h1 {
+  font-family: Lobster, sans-serif;
   font-size: 100px;
   line-height: 80px;
   max-width: 200px;
@@ -42,7 +43,29 @@ img {
 }
 
 .caption p {
-  max-width: 75%;
-  margin: 20px 0 20px auto;
+  max-width: 100%;
+  margin: 20px 0;
   padding: 0;
+  clear: both;
 }
+
+.float {
+  width: 300px;
+  float: left;
+  margin: 10px 30px 20px 0;
+}
+
+.right {
+  float: right;
+  margin: 10px 0px 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+/**/
