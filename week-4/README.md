@@ -4,7 +4,7 @@
 
 Introduction to user experience design (cont).
 
-### Workshop: CSS Box Model and Overflow  
+### Workshop: CSS Floats  
 
 We will continue working on the photo-essay to add diptychs, text-columns and custom typefaces.
 [View example](http://rodrigodebenito.github.io/icp-design-and-code/week-4/workshop/) | [View Code](https://github.com/rodrigodebenito/icp-design-and-code/tree/gh-pages/week-4/workshop)
