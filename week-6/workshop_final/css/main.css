@@ -1,0 +1,95 @@
+body {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 30px;
+  line-height: 1;
+  margin: 0;
+  background: tomato;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  bottom: 40px;
+  right: 40px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+video, img, iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+}
+
+.message {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  width: 30%;
+  padding: 40px;
+  background: black;
+}
+
+p {
+  font-size: 2em;
+  margin: 0 auto 0.5em auto;
+}
+
+a {
+  font-size: 1em;
+  padding: 20px;
+  border: 1px solid grey;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  background: grey;
+}
+
+.alarm video {
+  filter: contrast(50%);
+}
+
+.coffee {
+  background: plum;
+}
+
+.shower {
+  background: black;
+}
+
+.surf {
+  background: turquoise;
+}
+
+.beach {
+  background: pink;
+}
+
+.clothing {
+  background: GoldenRod;
+}
+
+.jungle {
+  background: SeaGreen;
+}
+
+.tiger {
+  background: mediumpurple;
+}
+
+.tiger video {
+  filter: contrast(100%) brightness(300%);
+}
+
+.tiger .message {
+  left: 10%;
+}
