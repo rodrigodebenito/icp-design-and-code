@@ -54,16 +54,16 @@ Introduction to user experience design (cont).
 Midterm Presentations.
 
 **Week 6 (February 20)**  
-Editing and managing content.
+Rich Media.
 
 **Week 7 (February 27)**  
-You're in control. Basic javascript.
+Storytelling in product design.
 
 **Week 8 (March 6)**  
-Shaping and visualizing data.
+Data transactions.
 
 **Week 9 (March 13)**  
-“No project is an island.” Connecting your project with the world.
+Scaling up and enhancing.
 
 **Week 10 (March 20)**  
 Final presentations.
